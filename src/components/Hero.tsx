@@ -4,7 +4,7 @@ import { personalInfo } from '../data/portfolio';
 
 const TYPING_LINES = [
   '> Initializing portfolio...',
-  '> Loading profile: Ait Braim',
+  '> Loading profile: Ait El Hadj',
   '> Status: Available for internships',
   '> Specialization: Cybersecurity + Software Dev',
   '> Role targets: Blue Team | SWE Intern',

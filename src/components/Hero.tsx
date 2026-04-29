@@ -94,6 +94,14 @@ export default function Hero() {
       <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 pt-24 pb-16 flex flex-col lg:flex-row items-center gap-16">
         {/* Left: text */}
         <div className="flex-1 text-center lg:text-left animate-fade-in">
+          <div className="mx-auto mb-8 h-28 w-28 rounded-full border-2 border-cyber-500/30 bg-gray-900/80 shadow-[0_25px_80px_rgba(20,184,166,0.15)] overflow-hidden lg:mx-0">
+            <img
+              src="/images/profile.jpeg"
+              alt="Profile placeholder"
+              loading="lazy"
+              className="h-full w-full object-cover"
+            />
+          </div>
           <div className="inline-flex items-center gap-2 bg-cyber-500/10 border border-cyber-500/30 rounded-full px-3 py-1 mb-6">
             <span className="w-2 h-2 rounded-full bg-cyber-400 animate-pulse" />
             <span className="text-cyber-400 text-xs font-mono font-medium">Available for Internships</span>
